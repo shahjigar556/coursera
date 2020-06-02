@@ -1,0 +1,44 @@
+body{
+	background-color: gray;
+	font-family: helvetica;
+}
+.nav-item a:hover{
+	background-color: white;
+}
+h1{
+	color:black;
+	font-weight: bold;
+}
+.navbar-toggler-icon{
+	background-color: white;
+	border:1px solid black;
+	margin:0;
+}
+@media screen and (min-width: 1200px){
+	.collapse{
+		display: none;
+	}
+}
+@media screen and (min-width: 992px)and(max-width: 1199px){
+	.collapse{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.collapse{
+		background-color: lightgreen;
+	}
+}
+
+#main-content h2{
+	font-weight: bold;
+	color:black;
+}
+.menu-tile{
+	background-color:white;
+	border:1px solid black;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
